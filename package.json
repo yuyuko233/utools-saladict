@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anrgct/utools-saladic.git"
+    "url": "git+https://github.com/yuyuko233/utools-saladict.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anrgct/utools-saladic/issues"
+    "url": "https://github.com/yuyuko233/utools-saladict/issues"
   },
-  "homepage": "https://github.com/anrgct/utools-saladic#readme",
+  "homepage": "https://github.com/yuyuko233/utools-saladict",
   "dependencies": {
-    "axios": "^0.21.0",
-    "axios-cookiejar-support": "^1.0.1",
-    "tough-cookie": "^4.0.0"
+    "axios": "1.7.7",
+    "axios-cookiejar-support": "^5.0.2",
+    "tough-cookie": "^5.0.0"
   }
 }
