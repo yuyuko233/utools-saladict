@@ -6,12 +6,11 @@ window.openExternal = function (url) {
 };
 
 //处理请求自定义cookie问题
-const adapter = require("axios/lib/adapters/http");
-const axiosCookieJarSupport = require("axios-cookiejar-support").default;
+const axiosCookieJarSupport = require("axios-cookiejar-support").wrapper;
 const tough = require("tough-cookie");
 const CookieJar = new tough.CookieJar();
 const axios = require("axios").create({
-  adapter,
+  adapter: 'http',
   headers:{
     'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
   },
